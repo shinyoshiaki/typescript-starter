@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
-    "lib": ["es2015", "es2016", "es2017", "dom", "scripthost", "esnext"],
+    "lib": ["esnext", "dom"],
     "incremental": true,
     "declaration": true,
     "outDir": "lib",
     "strict": true,
-    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "importHelpers": true,
@@ -15,6 +14,7 @@
     "sourceMap": true,
     "inlineSources": true,
     "noUnusedLocals": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "noImplicitAny": true
   }
 }
